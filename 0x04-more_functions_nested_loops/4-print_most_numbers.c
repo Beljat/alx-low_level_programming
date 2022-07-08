@@ -1,18 +1,35 @@
-#include "main.h"#include "main.h"
+#include "main.h"
 
 /**
- * * print_most_numbers -> this prints most numbers
+ * print_most_numbers - prints 0-9
+ *
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	int x;
+	int a;
 
-	for (x = 0; x < 10; x++)
+	for (a = 48; a < 58; a++)
 	{
-		if (x != 2 && x != 4)
-			_putchar(x + '0');
+		if (a != 50 && a != 52)
+			_putchar(a);
 	}
 	_putchar('\n');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
